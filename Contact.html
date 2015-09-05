@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-eqimages/uiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ben Carson - Contact</title>
+
+	<link rel="shortcut icon" type="image/png" href="images/ui_images/b_favicon3.ico"/>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<link href="Portfolio_Style_Light.css" rel="stylesheet" type="text/css" id="pagestyle">
+
+	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<script type="text/javascript">
+
+function swapStyleSheet(sheet) {
+    document.getElementById("pagestyle").setAttribute("href", sheet);
+}
+
+function initate() {
+
+    var style1 = document.getElementById("light");
+    var style2 = document.getElementById("dark");
+
+    style1.onclick = function () {
+    	swapStyleSheet("Portfolio_Style_Light.css");
+    };
+	style2.onclick = function () {
+		swapStyleSheet("Portfolio_Style_Dark.css");
+	};
+}
+
+window.onload = initate;
+</script>
+
+<body>
+
+	<div class ="container" id="maincontainer">
+		<div class="row" id="headerrow">
+			<div class="col-md-8 col-md-offset-2" id="title">
+				<a href="Main.html">
+					<h1 id="overtitle">BEN CARSON</h1>
+				</a>
+			</div>
+		</div>
+		<div class="row" id="headerrow">
+			<div class="col-md-2 col-md-offset-2" id="navbuttons">
+				<a href="Portfolio.html">
+					<h3 id="navtext">PORTFOLIO</h3>
+				</a>
+			</div>
+			<div class="col-md-2 col-md-offset-1" id="navbuttons">
+				<a href="About.html">
+					<h3 id="navtext">ABOUT</h3>
+				</a>
+			</div>
+			<div class="col-md-2 col-md-offset-1" id="navbuttons">
+				<a href="Contact.html">
+					<h3 id="navactive">CONTACT</h3>
+				</a>
+			</div>
+		</div>
+
+		<div class="row" id="contentrow">
+			<div class="col-md-8 col-md-offset-2" id="titleblock">
+				<h1>CONTACT ME</h1>
+			</div>
+		</div>
+
+		<div class="row" id="dividerrow">
+			<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" id="smalldivider"></div>
+		</div>
+
+		<div class="row" id="contentrow">
+			<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" id="textblock">
+				<p class="bodytext">Please use the following email to contact me for all matters of work and regarding any employment opportunities.</p>
+
+				<p class="bodytext" id="quoteblock" style="font-size:24px;">bencarson.contact@gmail.com</p>
+
+				<p class="bodytext">My resume can be found below, without address and phone number. If you are a legitimate employer or business partner and would like to request more, email me and I can provide you with more detailed contact info!<br><br>
+
+				Finally, this website is an ongoing work in progress! Please feel free to send feedback about the design or functionality of the site to the email above, using the subject line "Website Feedback". Content is still being added, so if something you're interested in says "Coming Soon", check back in a few days and it might be up and running!<br><br>
+
+				Thank you for stopping by!</p>
+			</div>
+		</div>
+
+		<div class="row" id="dividerrow">
+			<div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" id="spacer"></div>
+		</div>
+
+		<div class="row" id="contentrow">
+			<a href="files/BenCarson_Resume_Web.pdf" target="_blank">
+				<div class="col-md-2 col-md-offset-2" id="blocktitle">
+					<h3 id="blocktitle">RESUME</h3>
+					<div class="col-md-12" id="contentblock">
+						<img class="pimgthumb" id="bbthumb" src="images/ui_images/res_bttn.png">
+					</div>
+					<div id="backblock"></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="col-md-2 col-md-offset-1" id="inactivetitle">
+					<h3 id="inactivetitle">BLOG</h3>
+					<div class="col-md-12" id="inactiveblock">
+						<h4 style="margin-top:95px;color:gray;">Coming soon</h4>
+					</div>
+					<div id="backblock"></div>
+				</div>
+			</a>
+			<a href="">
+				<div class="col-md-2 col-md-offset-1" id="inactivetitle">
+					<h3 id="inactivetitle">BENBOT</h3>
+					<div class="col-md-12" id="inactiveblock">
+						<h4 style="margin-top:95px;color:gray;">Coming soon</h4>
+					</div>
+					<div id="backblock"></div>
+				</div>
+			</a>
+		</div>
+
+		<div class="row" id="dividerrow">
+			<div class="col-md-8 col-md-offset-2" id="spacer"></div>
+		</div>
+
+		<div class="row" id="dividerrow">
+			<div class="col-md-8 col-md-offset-2" id="divider"></div>
+		</div>
+
+		<div class="row" id="footerrow">
+			<div class="col-xs-3 col-xs-offset-1 col-md-2 col-md-offset-2" id="title">
+				<h5>WIP - Ben Carson 2015<br><br>Content subject to change</h5>
+			</div>
+
+			<div class="col-xs-3 col-xs-offset-1 col-md-3 col-md-offset-0" id="title">
+				<a href="http://www.getbootstrap.com" target="_blank">
+					<h6>This site uses minimal Bootstrap for easier content positioning across devices and screen sizes<br><br>Click to learn more</h6>
+				</a>
+			</div>
+			
+			<div class="col-xs-3 col-xs-offset-1 col-md-2 col-md-offset-1" id="title">
+				<h5>Select a theme</h5>
+				<button class="themeButton" id="light">LIGHT</button>
+    			<button class="themeButton" id="dark">DARK</button>
+			</div>
+
+		</div>
+	</div>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
