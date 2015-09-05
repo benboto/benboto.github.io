@@ -104,8 +104,16 @@ a:active {
 	padding: 0px;
 }
 
+#homerow{
+	background-color: rgba(252,55,95,1);
+}
+
 #headerrow{
 	background-color: rgba(252,55,95,1);
+	padding-top: 10px;
+	position:fixed;
+	width: 100%;
+	z-index: 5;
 }
 #colorbar{
 	background-color: rgba(252,55,95,1);
@@ -163,7 +171,6 @@ a:active {
 
 #navbuttons{
 	padding: 0px;
-	transition: 0.15s ease-out;
 }
 
 #dividerrow{
