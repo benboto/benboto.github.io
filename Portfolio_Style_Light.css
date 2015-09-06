@@ -10,7 +10,7 @@ body{
 h1{
 	padding: 0px;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 80px;
+	font-size: 7vmax;
 	font-weight: 400;
 	color: black;
 	text-align: center;
@@ -61,7 +61,7 @@ h6{
 	transition: 0.15s ease-out;
 }
 h6:hover{
-	color: rgba(255,50,80,1);
+	color: rgba(252,55,95,1);
 }
 
 p{
