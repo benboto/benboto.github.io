@@ -99,9 +99,10 @@ a:active {
 
 #maincontainer{
 	/*background-color: rgba(255,50,80,0.5);*/
-	width: 97.8%;
+	width: 100%;
 	height: 100%;
 	padding: 0px;
+	overflow-x: hidden;
 }
 
 #homerow{
@@ -114,6 +115,7 @@ a:active {
 	position:fixed;
 	width: 100%;
 	z-index: 5;
+	margin: 0px;
 }
 #colorbar{
 	background-color: rgba(252,55,95,1);
@@ -159,18 +161,23 @@ a:active {
 	margin-top: 0px;
 }
 #navtext:hover{
-	color: rgba(250,50,80,1);
+	color: rgba(252,55,95,1);
 	background-color: rgba(252,252,252,1);
 }
 #navactive{
 	background-color: rgba(252,252,252,1);
-	color: rgba(255,50,80,1);
+	color: rgba(252,55,95,1);
 	text-align: center;
 	margin-top: 0px;
 }
 
 #navbuttons{
 	padding: 0px;
+}
+
+#b_bttn{
+	background-color: rgba(252,55,95,1);
+	color: rgba(252,252,252,1);
 }
 
 #dividerrow{
