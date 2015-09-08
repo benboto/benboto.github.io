@@ -253,7 +253,7 @@ a:active {
 }
 
 #backblock{
-	display: inline;
+	/*display: inline;*/
 	background-color: black;
 	position: absolute;
 	height: 220px;
